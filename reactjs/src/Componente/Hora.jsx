@@ -27,8 +27,10 @@ function Hora() {
 
   return (
     <div className='Hora'>
+      <b>
       <p>Hora actual: {formattedTime}</p>
       <p>Fecha actual: {formattedDate}</p>
+      </b>
     </div>
   );
 }
